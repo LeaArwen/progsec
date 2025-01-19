@@ -27,15 +27,6 @@ To stop the containers, you can use the following command:
 docker compose down
 ```
 
-## GitHub Runner (CODE DELIVERY)
-
-The repository is configured such that changes pushed to the **production** branch will automatically be deployed on [http://tdt4237-XXX.idi.ntnu.no/](http://tdt4237-XXX.idi.ntnu.no/) (XXX = group number). This can be used for testing the deployed application and should be used for pushing code after fixing vulnerabilities. Typical workflow after finishing development on the main branch would be:
-
-- `git checkout production`
-- `git merge main`
-- `git push origin production`
-- Go to the "Actions" tab within this GitHub repository to monitor deployment.
-
 ## Documentation
 
 For more information on how the application is structured, and how to run it without Docker for **development**, see the [Developer Guide](/docs/developer-guide.md).
