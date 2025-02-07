@@ -16,6 +16,8 @@ services:
     networks:
       - backend_bridge
     restart: always
+    environment:
+      - NODE_ENV=production
 
   nginx:
     container_name: nginx
