@@ -7,14 +7,14 @@ charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
 cryptography==42.0.8
-Django==4.0.8
+Django==4.2.20
 django-cors-headers==3.13.0
 django-rest-knox==5.0.0
 djangorestframework==3.13.1
 dynaconf==3.2.5
 hvac==2.3.0
 idna==3.7
-Jinja2==3.1.4
+Jinja2==3.1.6
 jmespath==1.0.1
 loguru==0.7.2
 MarkupSafe==2.1.5
