@@ -1,5 +1,5 @@
 # We Use an official Python runtime as a parent image
-FROM python:3.12-slim
+FROM python:3.13.5-slim
 
 # Allows docker to cache installed dependencies between builds
 COPY requirements.txt requirements.txt
